@@ -1,24 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Search Airport View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchAirportViewController" id="BYZ-38-t0r" customClass="SearchAirportViewController" customModule="RxSwift_MVVM_C_Practice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="io8-8p-t0T">
+                                <rect key="frame" x="0.0" y="44" width="414" height="108"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9SZ-a1-OAP">
+                                        <rect key="frame" x="16" y="32" width="382" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Vfa-b5-6nR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="NotoSansKannada-Regular" family="Noto Sans Kannada" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.69219389876479109" blue="0.37847785827719471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="9SZ-a1-OAP" firstAttribute="leading" secondItem="io8-8p-t0T" secondAttribute="leading" constant="16" id="3Xz-tX-u5P"/>
+                                    <constraint firstAttribute="bottom" secondItem="9SZ-a1-OAP" secondAttribute="bottom" constant="16" id="OxI-b6-b2p"/>
+                                    <constraint firstItem="9SZ-a1-OAP" firstAttribute="top" secondItem="io8-8p-t0T" secondAttribute="top" constant="32" id="Qlc-KH-1lj"/>
+                                    <constraint firstAttribute="trailing" secondItem="9SZ-a1-OAP" secondAttribute="trailing" constant="16" id="cGX-u2-cw9"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bsR-Jz-Pn8">
+                                <rect key="frame" x="0.0" y="151" width="414" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bsR-Jz-Pn8" secondAttribute="bottom" id="FSU-0i-i29"/>
+                            <constraint firstItem="io8-8p-t0T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Syu-XB-Syy"/>
+                            <constraint firstItem="bsR-Jz-Pn8" firstAttribute="top" secondItem="io8-8p-t0T" secondAttribute="bottom" id="YRm-qe-8qh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bsR-Jz-Pn8" secondAttribute="trailing" id="dEZ-Os-T48"/>
+                            <constraint firstItem="bsR-Jz-Pn8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="duQ-jy-WNV"/>
+                            <constraint firstItem="io8-8p-t0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hUC-oX-sOt"/>
+                            <constraint firstItem="io8-8p-t0T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="pSI-r3-59Y"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="roundHeadView" destination="9SZ-a1-OAP" id="Vhn-L5-vTr"/>
+                        <outlet property="searchTextField" destination="9SZ-a1-OAP" id="7XC-zO-0Ye"/>
+                        <outlet property="tableView" destination="bsR-Jz-Pn8" id="Tag-ts-tvc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="138"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

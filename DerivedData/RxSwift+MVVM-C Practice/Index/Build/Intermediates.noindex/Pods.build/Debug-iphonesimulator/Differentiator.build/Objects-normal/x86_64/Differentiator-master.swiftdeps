@@ -1,0 +1,29 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "fa176ae26597a429326ae46122df1d5c23ade041360a794088ff9d9b72bd6af1"
+build_start_time: [1640429897, 294000148]
+build_end_time: [1640429899, 505609989]
+inputs:
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModel.swift"
+  : [1640429873, 251908063]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType+ItemPath.swift"
+  : [1640429873, 252484321]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType.swift"
+  : [1640429873, 252768039]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/Changeset.swift"
+  : [1640429873, 252627372]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/Diff.swift"
+  : [1640429873, 251730918]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/IdentifiableType.swift"
+  : [1640429873, 251383781]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/IdentifiableValue.swift"
+  : [1640429873, 252070426]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/ItemPath.swift"
+  : [1640429873, 252209663]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/Optional+Extensions.swift"
+  : [1640429873, 252347946]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/SectionModel.swift"
+  : [1640429873, 251558780]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/SectionModelType.swift"
+  : [1640429873, 250889301]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/Differentiator/Sources/Differentiator/Utilities.swift"
+  : [1640429873, 251137733]

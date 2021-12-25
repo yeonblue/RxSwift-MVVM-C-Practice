@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3B038C72-AFC2-4EA3-BCE1-DF82813A64A8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3B038C72-AFC2-4EA3-BCE1-DF82813A64A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxSwift+MVVM-C Practice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxSwift+MVVM-C Practice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxSwift+MVVM-C Practice</string>
+			<key>timeStartedRecording</key>
+			<real>662122750.74853003</real>
+			<key>timeStoppedRecording</key>
+			<real>662122756.03811598</real>
+			<key>title</key>
+			<string>Build RxSwift+MVVM-C Practice</string>
+			<key>uniqueIdentifier</key>
+			<string>3B038C72-AFC2-4EA3-BCE1-DF82813A64A8</string>
+		</dict>
+		<key>71FF08B2-321B-40E5-8F5B-FAFB3BF7414C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>71FF08B2-321B-40E5-8F5B-FAFB3BF7414C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RxSwift+MVVM-C Practice project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RxSwift+MVVM-C Practice</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build RxSwift+MVVM-C Practice</string>
+			<key>timeStartedRecording</key>
+			<real>662122425.84556901</real>
+			<key>timeStoppedRecording</key>
+			<real>662122459.33415401</real>
+			<key>title</key>
+			<string>Build RxSwift+MVVM-C Practice</string>
+			<key>uniqueIdentifier</key>
+			<string>71FF08B2-321B-40E5-8F5B-FAFB3BF7414C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

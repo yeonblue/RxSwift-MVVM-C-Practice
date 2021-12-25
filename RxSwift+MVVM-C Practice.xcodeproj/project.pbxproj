@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		45E10E472770B4FF0045DACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E462770B4FF0045DACD /* AppDelegate.swift */; };
 		45E10E492770B4FF0045DACD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E482770B4FF0045DACD /* SceneDelegate.swift */; };
-		45E10E4B2770B4FF0045DACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E4A2770B4FF0045DACD /* ViewController.swift */; };
+		45E10E4B2770B4FF0045DACD /* SearchAirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E4A2770B4FF0045DACD /* SearchAirportViewController.swift */; };
 		45E10E4E2770B4FF0045DACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E4C2770B4FF0045DACD /* Main.storyboard */; };
 		45E10E502770B5000045DACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E4F2770B5000045DACD /* Assets.xcassets */; };
 		45E10E532770B5000045DACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E512770B5000045DACD /* LaunchScreen.storyboard */; };
+		45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */; };
 		E700F9C5E6627ABB5D4D8753 /* Pods_RxSwift_MVVM_C_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +22,12 @@
 		45E10E432770B4FF0045DACD /* RxSwift+MVVM-C Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift+MVVM-C Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E10E462770B4FF0045DACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45E10E482770B4FF0045DACD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45E10E4A2770B4FF0045DACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45E10E4A2770B4FF0045DACD /* SearchAirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportViewController.swift; sourceTree = "<group>"; };
 		45E10E4D2770B4FF0045DACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45E10E4F2770B5000045DACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45E10E522770B5000045DACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45E10E542770B5000045DACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportViewModel.swift; sourceTree = "<group>"; };
 		AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_C_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM-C Practice/Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */,
 				365A94A0C17A05E32A19D336 /* Pods-RxSwift+MVVM-C Practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +82,32 @@
 		45E10E452770B4FF0045DACD /* RxSwift+MVVM-C Practice */ = {
 			isa = PBXGroup;
 			children = (
+				45E10E5B27772F020045DACD /* ViewModel */,
+				45E10E5A27772EFB0045DACD /* View */,
 				45E10E462770B4FF0045DACD /* AppDelegate.swift */,
 				45E10E482770B4FF0045DACD /* SceneDelegate.swift */,
-				45E10E4A2770B4FF0045DACD /* ViewController.swift */,
 				45E10E4C2770B4FF0045DACD /* Main.storyboard */,
 				45E10E4F2770B5000045DACD /* Assets.xcassets */,
 				45E10E512770B5000045DACD /* LaunchScreen.storyboard */,
 				45E10E542770B5000045DACD /* Info.plist */,
 			);
 			path = "RxSwift+MVVM-C Practice";
+			sourceTree = "<group>";
+		};
+		45E10E5A27772EFB0045DACD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45E10E4A2770B4FF0045DACD /* SearchAirportViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		45E10E5B27772F020045DACD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45E10E4B2770B4FF0045DACD /* ViewController.swift in Sources */,
+				45E10E4B2770B4FF0045DACD /* SearchAirportViewController.swift in Sources */,
 				45E10E472770B4FF0045DACD /* AppDelegate.swift in Sources */,
+				45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */,
 				45E10E492770B4FF0045DACD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +384,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -395,6 +415,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

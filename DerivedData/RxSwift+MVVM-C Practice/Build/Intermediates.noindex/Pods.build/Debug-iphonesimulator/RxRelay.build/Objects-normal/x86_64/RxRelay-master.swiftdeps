@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "57e3a72a2865e39529628e09d2127c30539f8f9e1457e92b1fa7b32c05ea3c0f"
+build_start_time: [1640429951, 747266054]
+build_end_time: [1640429951, 866107940]
+inputs:
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1640005274, 68957090]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxRelay/RxRelay/Observable+Bind.swift"
+  : [1640005274, 68242549]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxRelay/RxRelay/PublishRelay.swift": [1640005274, 67712306]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxRelay/RxRelay/Utils.swift": [1640005274, 68590641]

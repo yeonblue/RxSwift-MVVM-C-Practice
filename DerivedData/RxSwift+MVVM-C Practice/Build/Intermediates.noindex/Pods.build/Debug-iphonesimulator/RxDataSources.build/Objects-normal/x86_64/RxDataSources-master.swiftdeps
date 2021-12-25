@@ -1,0 +1,37 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "3e44d96cd6a13fa35e8e375eec571330f9c9576cf469ad5ce8f9a48157de28c8"
+build_start_time: [1640429952, 643808841]
+build_end_time: [1640429953, 681617975]
+inputs:
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/AnimationConfiguration.swift"
+  : [1640429874, 126311302]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/Array+Extensions.swift"
+  : [1640429874, 126112461]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/CollectionViewSectionedDataSource.swift"
+  : [1640429874, 127893686]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/DataSources.swift"
+  : [1640429874, 127059459]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/Deprecated.swift"
+  : [1640429874, 127550125]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/FloatingPointType+IdentifiableType.swift"
+  : [1640429874, 126500606]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/IntegerType+IdentifiableType.swift"
+  : [1640429874, 128223419]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedAnimatedDataSource.swift"
+  : [1640429874, 128388404]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift"
+  : [1640429874, 126884698]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/RxPickerViewAdapter.swift"
+  : [1640429874, 127395153]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedAnimatedDataSource.swift"
+  : [1640429874, 126690864]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedReloadDataSource.swift"
+  : [1640429874, 128715038]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/String+IdentifiableType.swift"
+  : [1640429874, 127225399]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/TableViewSectionedDataSource.swift"
+  : [1640429874, 128555774]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/UI+SectionedViewType.swift"
+  : [1640429874, 128061294]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxDataSources/Sources/RxDataSources/ViewTransition.swift"
+  : [1640429874, 127713680]

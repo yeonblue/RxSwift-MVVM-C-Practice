@@ -1,0 +1,25 @@
+Target dependency graph (7 targets)
+Differentiator in Pods, no dependencies
+RxSwift in Pods, no dependencies
+RxRelay in Pods, depends on:
+RxSwift in Pods (explicit)
+RxCocoa in Pods, depends on:
+RxRelay in Pods (explicit)
+RxSwift in Pods (explicit)
+RxDataSources in Pods, depends on:
+Differentiator in Pods (explicit)
+RxCocoa in Pods (explicit)
+RxSwift in Pods (explicit)
+Pods-RxSwift+MVVM-C Practice in Pods, depends on:
+Differentiator in Pods (explicit)
+RxCocoa in Pods (explicit)
+RxDataSources in Pods (explicit)
+RxRelay in Pods (explicit)
+RxSwift in Pods (explicit)
+RxSwift+MVVM-C Practice in RxSwift+MVVM-C Practice, depends on:
+Pods-RxSwift+MVVM-C Practice in Pods (implicit dependency via file 'Pods_RxSwift_MVVM_C_Practice.framework' in build phase 'Link Binary')
+Differentiator in Pods (implicit dependency via options '-framework Differentiator' in build setting 'OTHER_LDFLAGS')
+RxCocoa in Pods (implicit dependency via options '-framework RxCocoa' in build setting 'OTHER_LDFLAGS')
+RxDataSources in Pods (implicit dependency via options '-framework RxDataSources' in build setting 'OTHER_LDFLAGS')
+RxRelay in Pods (implicit dependency via options '-framework RxRelay' in build setting 'OTHER_LDFLAGS')
+RxSwift in Pods (implicit dependency via options '-framework RxSwift' in build setting 'OTHER_LDFLAGS')

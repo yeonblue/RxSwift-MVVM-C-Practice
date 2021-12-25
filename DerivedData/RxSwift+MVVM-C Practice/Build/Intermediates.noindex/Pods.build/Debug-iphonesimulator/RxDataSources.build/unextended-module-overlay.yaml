@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Build/Products/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxDataSources.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "0ac94f05c326db5f52409c199e01ee2a70d3aa2d0f61321161a7ec3b5b393d37"
+build_start_time: [1640429647, 393641948]
+build_end_time: [1640429650, 890575885]
+inputs:
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/AppDelegate.swift": [1640004991, 741113424]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/SceneDelegate.swift"
+  : [1640004991, 752671957]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/View/SearchAirportViewController.swift"
+  : [1640429625, 792006969]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/ViewModel/SearchAirportViewModel.swift"
+  : [1640429625, 726420164]

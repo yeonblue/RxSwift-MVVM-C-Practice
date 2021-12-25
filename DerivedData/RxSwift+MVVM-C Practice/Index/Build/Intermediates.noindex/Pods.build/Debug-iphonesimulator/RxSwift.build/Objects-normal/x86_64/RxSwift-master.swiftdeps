@@ -1,0 +1,286 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "fa176ae26597a429326ae46122df1d5c23ade041360a794088ff9d9b72bd6af1"
+build_start_time: [1640429897, 302574157]
+build_end_time: [1640429900, 439849853]
+inputs:
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/AtomicInt.swift": [1640005274, 139930725]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/DataStructures/Bag.swift"
+  : [1640005274, 140580654]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift"
+  : [1640005274, 141757488]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift"
+  : [1640005274, 140980482]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/DataStructures/Queue.swift"
+  : [1640005274, 141344070]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/DispatchQueue+Extensions.swift"
+  : [1640005274, 139553546]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/Platform.Darwin.swift"
+  : [1640005274, 138998031]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/Platform.Linux.swift"
+  : [1640005274, 142156124]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/Platform/RecursiveLock.swift": [1640005274, 142627954]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/AnyObserver.swift": [1640005274, 78534126]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Cancelable.swift": [1640005274, 73783636]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift"
+  : [1640005274, 117581844]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/Lock.swift"
+  : [1640005274, 117129802]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift"
+  : [1640005274, 115624427]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift"
+  : [1640005274, 116168022]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift"
+  : [1640005274, 116641759]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift"
+  : [1640005274, 118148088]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ConnectableObservableType.swift"
+  : [1640005274, 126057147]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Date+Dispatch.swift": [1640005274, 119409561]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Deprecated.swift": [1640005274, 120324850]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposable.swift": [1640005274, 112409114]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift"
+  : [1640005274, 82502841]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift"
+  : [1640005274, 82200765]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift"
+  : [1640005274, 82776069]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift"
+  : [1640005274, 81151008]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/Disposables.swift"
+  : [1640005274, 83068370]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift"
+  : [1640005274, 79506874]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift"
+  : [1640005274, 79169750]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift"
+  : [1640005274, 80168247]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift"
+  : [1640005274, 80808639]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift"
+  : [1640005274, 79841375]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift"
+  : [1640005274, 81819057]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift"
+  : [1640005274, 81490039]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift"
+  : [1640005274, 80482959]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Errors.swift": [1640005274, 127565383]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Event.swift": [1640005274, 75018405]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift"
+  : [1640005274, 114367008]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/GroupedObservable.swift"
+  : [1640005274, 74268341]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift"
+  : [1640005274, 138151645]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observable.swift": [1640005274, 124812126]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift"
+  : [1640005274, 124200820]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ObservableType+Extensions.swift"
+  : [1640005274, 113541603]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ObservableType.swift": [1640005274, 126750946]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/AddRef.swift"
+  : [1640005274, 93880414]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Amb.swift"
+  : [1640005274, 103062391]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/AsMaybe.swift"
+  : [1640005274, 83756923]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/AsSingle.swift"
+  : [1640005274, 91358661]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Buffer.swift"
+  : [1640005274, 85994720]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Catch.swift"
+  : [1640005274, 102361679]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift"
+  : [1640005274, 97078323]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift"
+  : [1640005274, 103940486]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/CombineLatest.swift"
+  : [1640005274, 90536594]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/CompactMap.swift"
+  : [1640005274, 95952033]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Concat.swift"
+  : [1640005274, 88683128]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Create.swift"
+  : [1640005274, 111098051]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Debounce.swift"
+  : [1640005274, 100698947]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Debug.swift"
+  : [1640005274, 104753255]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift"
+  : [1640005274, 86780071]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Deferred.swift"
+  : [1640005274, 85516929]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Delay.swift"
+  : [1640005274, 87514400]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift"
+  : [1640005274, 98335742]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Dematerialize.swift"
+  : [1640005274, 101164340]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift"
+  : [1640005274, 92617511]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Do.swift": [1640005274, 85148811]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/ElementAt.swift"
+  : [1640005274, 110695362]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Empty.swift"
+  : [1640005274, 91726303]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Enumerated.swift"
+  : [1640005274, 92143297]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Error.swift"
+  : [1640005274, 90174674]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Filter.swift"
+  : [1640005274, 102700233]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/First.swift"
+  : [1640005274, 92936992]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Generate.swift"
+  : [1640005274, 108449935]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/GroupBy.swift"
+  : [1640005274, 88283061]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Just.swift"
+  : [1640005274, 107653141]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Map.swift"
+  : [1640005274, 106313228]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Materialize.swift"
+  : [1640005274, 111614942]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Merge.swift"
+  : [1640005274, 105273962]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Multicast.swift"
+  : [1640005274, 97545146]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Never.swift"
+  : [1640005274, 84504127]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/ObserveOn.swift"
+  : [1640005274, 96758127]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Optional.swift"
+  : [1640005274, 108067989]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Producer.swift"
+  : [1640005274, 87882995]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Range.swift"
+  : [1640005274, 95556735]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Reduce.swift"
+  : [1640005274, 103427171]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Repeat.swift"
+  : [1640005274, 98721981]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/RetryWhen.swift"
+  : [1640005274, 84787607]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Sample.swift"
+  : [1640005274, 90983867]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Scan.swift"
+  : [1640005274, 109224796]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Sequence.swift"
+  : [1640005274, 94419002]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift"
+  : [1640005274, 108851432]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/SingleAsync.swift"
+  : [1640005274, 112016201]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Sink.swift"
+  : [1640005274, 94826221]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Skip.swift"
+  : [1640005274, 105688571]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/SkipUntil.swift"
+  : [1640005274, 106891632]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/SkipWhile.swift"
+  : [1640005274, 97942590]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/StartWith.swift"
+  : [1640005274, 107256650]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift"
+  : [1640005274, 86427211]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Switch.swift"
+  : [1640005274, 99895954]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift"
+  : [1640005274, 110302448]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Take.swift"
+  : [1640005274, 88993787]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/TakeLast.swift"
+  : [1640005274, 89758872]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/TakeUntil.swift"
+  : [1640005274, 99468231]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/TakeWhile.swift"
+  : [1640005274, 89378356]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Throttle.swift"
+  : [1640005274, 95201969]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Timeout.swift"
+  : [1640005274, 84145545]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Timer.swift"
+  : [1640005274, 93321323]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/ToArray.swift"
+  : [1640005274, 99101543]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Using.swift"
+  : [1640005274, 87121248]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Window.swift"
+  : [1640005274, 100307464]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift"
+  : [1640005274, 96373081]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift"
+  : [1640005274, 101815700]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Zip+arity.swift"
+  : [1640005274, 109845638]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observables/Zip.swift"
+  : [1640005274, 104359626]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/ObserverType.swift": [1640005274, 114897727]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift"
+  : [1640005274, 130130290]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observers/ObserverBase.swift"
+  : [1640005274, 129016399]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift"
+  : [1640005274, 129536151]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Reactive.swift": [1640005274, 118636131]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Rx.swift": [1640005274, 128301858]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/RxMutableBox.swift": [1640005274, 74624538]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/SchedulerType.swift": [1640005274, 125467300]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift"
+  : [1640005274, 133502483]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift"
+  : [1640005274, 136160850]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift"
+  : [1640005274, 132797718]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift"
+  : [1640005274, 136962413]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift"
+  : [1640005274, 137761116]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift"
+  : [1640005274, 135400295]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift"
+  : [1640005274, 135033369]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift"
+  : [1640005274, 134658575]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift"
+  : [1640005274, 134300231]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift"
+  : [1640005274, 135771274]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift"
+  : [1640005274, 133175373]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift"
+  : [1640005274, 131534576]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift"
+  : [1640005274, 131097793]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift"
+  : [1640005274, 132387161]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift"
+  : [1640005274, 136562585]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift"
+  : [1640005274, 137377500]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift"
+  : [1640005274, 132013797]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift"
+  : [1640005274, 122709274]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift"
+  : [1640005274, 122211456]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift"
+  : [1640005274, 123661518]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift"
+  : [1640005274, 123193740]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift"
+  : [1640005274, 121553421]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift"
+  : [1640005274, 113090038]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/Completable+AndThen.swift"
+  : [1640005274, 75635910]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/Completable.swift"
+  : [1640005274, 75972080]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/Maybe.swift": [1640005274, 76973199]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/ObservableType+PrimitiveSequence.swift"
+  : [1640005274, 77315568]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence+Zip+arity.swift"
+  : [1640005274, 78132629]
+  ? "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence.swift"
+  : [1640005274, 76639652]
+  "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/Pods/RxSwift/RxSwift/Traits/Single.swift": [1640005274, 76305866]

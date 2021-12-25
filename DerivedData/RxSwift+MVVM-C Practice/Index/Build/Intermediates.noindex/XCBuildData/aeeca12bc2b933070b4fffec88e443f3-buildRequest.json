@@ -1,0 +1,77 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f8f247496a5d5526043af52dfb3c7f73"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42dca0619004b9d353cffe79ea74346f94"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424f96f1021f5250ab30d486e660411efe"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42560d678ab5a9b2aa988fef5eec065e74"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420daa2e2cd26ad5ca345c3044f7db418b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4291ffb250f3b44ffb9b452226d52e9fa9"
+    },
+    {
+      "guid" : "75bba5342a994df29f880d8c98a98dda989d853a0d4c4c10b31c6bf7c69489bd"
+    }
+  ],
+  "containerPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Index/Build/Products",
+      "derivedDataPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/choiseoyeon/Desktop/iOS Project/RxSwift+MVVM-C Practice/RxSwift+MVVM-C Practice/DerivedData/RxSwift+MVVM-C Practice/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
