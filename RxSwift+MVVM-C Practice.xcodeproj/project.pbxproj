@@ -14,6 +14,12 @@
 		45E10E502770B5000045DACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E4F2770B5000045DACD /* Assets.xcassets */; };
 		45E10E532770B5000045DACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E512770B5000045DACD /* LaunchScreen.storyboard */; };
 		45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */; };
+		45E10E60277803E70045DACD /* SearchCityCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E5F277803E70045DACD /* SearchCityCoordinator.swift */; };
+		45E10E622778042B0045DACD /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E612778042B0045DACD /* Coordinator.swift */; };
+		45E10E642778073D0045DACD /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E632778073D0045DACD /* BaseCoordinator.swift */; };
+		45E10E67277808C00045DACD /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E66277808C00045DACD /* Storyboardable.swift */; };
+		45E10E6927783F4E0045DACD /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E6827783F4E0045DACD /* AppCoordinator.swift */; };
+		45E10E6B27784B6C0045DACD /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E6A27784B6C0045DACD /* Extension.swift */; };
 		E700F9C5E6627ABB5D4D8753 /* Pods_RxSwift_MVVM_C_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,12 @@
 		45E10E522770B5000045DACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45E10E542770B5000045DACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportViewModel.swift; sourceTree = "<group>"; };
+		45E10E5F277803E70045DACD /* SearchCityCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCityCoordinator.swift; sourceTree = "<group>"; };
+		45E10E612778042B0045DACD /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		45E10E632778073D0045DACD /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		45E10E66277808C00045DACD /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		45E10E6827783F4E0045DACD /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		45E10E6A27784B6C0045DACD /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_C_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM-C Practice/Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +94,9 @@
 		45E10E452770B4FF0045DACD /* RxSwift+MVVM-C Practice */ = {
 			isa = PBXGroup;
 			children = (
+				45E10E6A27784B6C0045DACD /* Extension.swift */,
+				45E10E652778088E0045DACD /* Shared */,
+				45E10E5E277803C20045DACD /* Coordinator */,
 				45E10E5B27772F020045DACD /* ViewModel */,
 				45E10E5A27772EFB0045DACD /* View */,
 				45E10E462770B4FF0045DACD /* AppDelegate.swift */,
@@ -108,6 +123,25 @@
 				45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		45E10E5E277803C20045DACD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				45E10E5F277803E70045DACD /* SearchCityCoordinator.swift */,
+				45E10E612778042B0045DACD /* Coordinator.swift */,
+				45E10E632778073D0045DACD /* BaseCoordinator.swift */,
+				45E10E6827783F4E0045DACD /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		45E10E652778088E0045DACD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				45E10E66277808C00045DACD /* Storyboardable.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +261,12 @@
 			files = (
 				45E10E4B2770B4FF0045DACD /* SearchAirportViewController.swift in Sources */,
 				45E10E472770B4FF0045DACD /* AppDelegate.swift in Sources */,
+				45E10E622778042B0045DACD /* Coordinator.swift in Sources */,
+				45E10E60277803E70045DACD /* SearchCityCoordinator.swift in Sources */,
+				45E10E67277808C00045DACD /* Storyboardable.swift in Sources */,
+				45E10E6B27784B6C0045DACD /* Extension.swift in Sources */,
+				45E10E642778073D0045DACD /* BaseCoordinator.swift in Sources */,
+				45E10E6927783F4E0045DACD /* AppCoordinator.swift in Sources */,
 				45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */,
 				45E10E492770B4FF0045DACD /* SceneDelegate.swift in Sources */,
 			);
@@ -383,7 +423,6 @@
 				INFOPLIST_FILE = "RxSwift+MVVM-C Practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -414,7 +453,6 @@
 				INFOPLIST_FILE = "RxSwift+MVVM-C Practice/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

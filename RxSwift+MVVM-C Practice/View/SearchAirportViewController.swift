@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import RxDataSources
 
-class SearchAirportViewController: UIViewController {
+class SearchAirportViewController: UIViewController, Storyboardable {
     
     // MARK: - IBOutlets
     @IBOutlet weak var roundHeadView: UIView!
@@ -18,14 +18,19 @@ class SearchAirportViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     // MARK: - Properties
-    var viewModel: SearchCityViewPresentable!
+    private var viewModel: SearchCityViewPresentable!
+    var viewModelBuilder: SearchCityViewPresentable.ViewModelBuilder!
     
     // MARK: - LiceCycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        roundHeadView.backgroundColor = .mainTheme
+        self.navigationItem.title = "Airport Search"
+        
+        viewModel = viewModelBuilder((
+            searchText: searchTextField.rx.text.orEmpty.asDriver(), ()
+        ))
     }
-
-
 }
 
