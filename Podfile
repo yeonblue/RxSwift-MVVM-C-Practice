@@ -10,5 +10,6 @@ target 'RxSwift+MVVM-C Practice' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   pod 'RxDataSources', '~> 4.0'
+  pod "Alamofire", '~> 5.0'
 
 end
