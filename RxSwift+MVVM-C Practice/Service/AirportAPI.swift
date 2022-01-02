@@ -9,5 +9,5 @@ import Foundation
 import RxSwift
 
 protocol AirportAPI {
-    func fetchAirports() -> Void
+    func fetchAirports() -> Single<AirportsResponses>
 }

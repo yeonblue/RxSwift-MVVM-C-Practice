@@ -27,6 +27,7 @@
 		45E10E7927788E390045DACD /* AirportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E7827788E390045DACD /* AirportService.swift */; };
 		45E10E7B27788EE70045DACD /* AirportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E7A27788EE70045DACD /* AirportAPI.swift */; };
 		45E10E7E27788FAC0045DACD /* AirportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E7D27788FAC0045DACD /* AirportModel.swift */; };
+		45E10E8127818BB00045DACD /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8027818BB00045DACD /* CustomError.swift */; };
 		E700F9C5E6627ABB5D4D8753 /* Pods_RxSwift_MVVM_C_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		45E10E7827788E390045DACD /* AirportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportService.swift; sourceTree = "<group>"; };
 		45E10E7A27788EE70045DACD /* AirportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportAPI.swift; sourceTree = "<group>"; };
 		45E10E7D27788FAC0045DACD /* AirportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportModel.swift; sourceTree = "<group>"; };
+		45E10E8027818BB00045DACD /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_C_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM-C Practice/Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				45E10E7D27788FAC0045DACD /* AirportModel.swift */,
+				45E10E8027818BB00045DACD /* CustomError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				45E10E7E27788FAC0045DACD /* AirportModel.swift in Sources */,
 				45E10E60277803E70045DACD /* SearchCityCoordinator.swift in Sources */,
 				45E10E74277886330045DACD /* AirportAPIService.swift in Sources */,
+				45E10E8127818BB00045DACD /* CustomError.swift in Sources */,
 				45E10E7B27788EE70045DACD /* AirportAPI.swift in Sources */,
 				45E10E67277808C00045DACD /* Storyboardable.swift in Sources */,
 				45E10E6B27784B6C0045DACD /* Extension.swift in Sources */,

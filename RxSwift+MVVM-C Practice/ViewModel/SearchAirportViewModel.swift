@@ -7,6 +7,7 @@
 
 import Foundation
 import RxCocoa
+import RxSwift
 
 protocol SearchCityViewPresentable {
     typealias Input  = (
@@ -24,14 +25,30 @@ class SearchAirportViewModel: SearchCityViewPresentable {
     var input: SearchCityViewPresentable.Input
     var output: SearchCityViewPresentable.Output
     
-    init(input: SearchCityViewPresentable.Input) {
+    private let airportService: AirportAPI
+    private let disposeBag = DisposeBag()
+    
+    init(input: SearchCityViewPresentable.Input,
+         airportService: AirportAPI) {
         self.input = input
         self.output = SearchAirportViewModel.output(input: self.input)
+        self.airportService = airportService
+        self.process()
     }
 }
 
 private extension SearchAirportViewModel {
     static func output(input: SearchCityViewPresentable.Input) -> SearchCityViewPresentable.Output {
         return ()
+    }
+    
+    func process() -> Void {
+        self.airportService
+            .fetchAirports()
+            .map({ airports in
+                print("fetch airport: \(airports)")
+            })
+            .subscribe()
+            .disposed(by: self.disposeBag)
     }
 }

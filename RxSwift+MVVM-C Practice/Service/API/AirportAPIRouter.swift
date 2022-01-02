@@ -14,13 +14,13 @@ enum AirportAPIRouter {
 
 extension AirportAPIRouter: APIRouter {
     var baseURL: String {
-        return "https://gist.githubusercontent.com/tdreyno"
+        return "https://gist.githubusercontent.com/tdreyno/4278655/raw/7b0762c09b519f40397e4c3e100b097d861f5588"
     }
     
     var path: String {
         switch self {
         case .getAirports:
-            return "4278655/raw"
+            return "airports.json"
         }
     }
     
