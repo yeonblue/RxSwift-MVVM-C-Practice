@@ -9,12 +9,16 @@ import Foundation
 import RxCocoa
 import RxSwift
 import RxRelay
+import RxDataSources
 
 protocol SearchCityViewPresentable {
     typealias Input  = (
         searchText: Driver<String>, ()
     )
-    typealias Output = ()
+    typealias Output = (
+        cities: Driver<[CityItemsSection]>, ()
+    )
+    
     typealias ViewModelBuilder = (SearchCityViewPresentable.Input) -> SearchCityViewPresentable
     
     var input: SearchCityViewPresentable.Input { get }
@@ -36,8 +40,7 @@ class SearchAirportViewModel: SearchCityViewPresentable {
          airportService: AirportAPI) {
         self.input = input
         self.output = SearchAirportViewModel.output(input: self.input,
-                                                    state: self.state,
-                                                    disposeBag: self.disposeBag)
+                                                    state: self.state)
         self.airportService = airportService
         self.process()
     }
@@ -45,8 +48,7 @@ class SearchAirportViewModel: SearchCityViewPresentable {
 
 private extension SearchAirportViewModel {
     static func output(input: SearchCityViewPresentable.Input,
-                       state: State,
-                       disposeBag: DisposeBag) -> SearchCityViewPresentable.Output {
+                       state: State) -> SearchCityViewPresentable.Output {
         
         let searchTextObservable = input
             .searchText
@@ -58,22 +60,28 @@ private extension SearchAirportViewModel {
         
         let airportsObserVable = state.airports.skip(1).asObservable()
         
-        Observable.combineLatest(searchTextObservable, airportsObserVable)
+        let sections = Observable
+            .combineLatest(searchTextObservable, airportsObserVable)
             .map { (searchKey, airports) in
                 return airports.filter { (airport) in
-                     !searchKey.isEmpty &&
-                        airport.city.lowercased()
+                    !searchKey.isEmpty &&
+                    airport.city.lowercased()
                         .replacingOccurrences(of: " ", with: "")
                         .hasPrefix(searchKey.lowercased())
                 }
             }
-            .map {
-                print($0) // TODO: - 디버그용 추후 삭제
-            }
-            .subscribe()
-            .disposed(by: disposeBag)
+            .map { uniqueElementsFrom(array: $0.compactMap({ model in
+                CityViewModel(model: model)
+            }))}
+            .map({
+                // Section이 1개므로 0으로 임시 설정
+                [CityItemsSection(model: 0, items: $0)]
+            })
+            .asDriver(onErrorJustReturn: [])
 
-        return ()
+        return (
+            cities: sections, ()
+        )
     }
     
     func process() -> Void {
@@ -85,5 +93,23 @@ private extension SearchAirportViewModel {
             })
             .subscribe()
             .disposed(by: self.disposeBag)
+    }
+}
+
+// MARK: - Helpers
+private extension SearchAirportViewModel {
+    static func uniqueElementsFrom(array: [CityViewModel]) -> [CityViewModel] {
+        var set = Set<CityViewModel>()
+        
+        let result = array.filter { model in
+            guard !set.contains(model) else {
+                return false
+            }
+            
+            set.insert(model)
+            return true
+        }
+        
+        return result
     }
 }

@@ -19,19 +19,54 @@ class SearchAirportViewController: UIViewController, Storyboardable {
     @IBOutlet weak var tableView: UITableView!
     
     // MARK: - Properties
+    let disposeBag = DisposeBag()
     private var viewModel: SearchCityViewPresentable!
     var viewModelBuilder: SearchCityViewPresentable.ViewModelBuilder!
     
-    // MARK: - LiceCycle
+    private lazy var dataSource =
+    RxTableViewSectionedReloadDataSource<CityItemsSection>(
+        configureCell: { _, tableView, indexPath, item in
+            
+        let cityCell = tableView
+                .dequeueReusableCell(withIdentifier: AirportCityTableViewCell.reuseIdentifier,
+                                     for: indexPath) as! AirportCityTableViewCell
+            cityCell.configure(viewModel: item)
+        return cityCell
+    })
+    
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        roundHeadView.backgroundColor = .mainTheme
-        self.navigationItem.title = "Airport Search"
         
         viewModel = viewModelBuilder((
             searchText: searchTextField.rx.text.orEmpty.asDriver(), ()
         ))
+        
+        setupUI()
+        setupTableView()
+        bindUI()
+        
+
     }
 }
 
+private extension SearchAirportViewController {
+    func setupUI() {
+        self.navigationItem.title = "Airport Search"
+        roundHeadView.backgroundColor = .mainTheme
+    }
+    
+    func setupTableView() {
+        tableView.register(UINib(nibName: "AirportCityTableViewCell",
+                                 bundle: nil),
+                           forCellReuseIdentifier: AirportCityTableViewCell.reuseIdentifier)
+    }
+    
+    func bindUI() {
+        self.viewModel
+            .output
+            .cities
+            .drive(tableView.rx.items(dataSource: self.dataSource))
+            .disposed(by: self.disposeBag)
+    }
+}

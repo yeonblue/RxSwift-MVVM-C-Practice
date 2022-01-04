@@ -28,6 +28,9 @@
 		45E10E7B27788EE70045DACD /* AirportAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E7A27788EE70045DACD /* AirportAPI.swift */; };
 		45E10E7E27788FAC0045DACD /* AirportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E7D27788FAC0045DACD /* AirportModel.swift */; };
 		45E10E8127818BB00045DACD /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8027818BB00045DACD /* CustomError.swift */; };
+		45E10E8327845DB30045DACD /* CityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8227845DB30045DACD /* CityViewModel.swift */; };
+		45E10E89278467490045DACD /* AirportCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E87278467490045DACD /* AirportCityTableViewCell.swift */; };
+		45E10E8A278467490045DACD /* AirportCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E88278467490045DACD /* AirportCityTableViewCell.xib */; };
 		E700F9C5E6627ABB5D4D8753 /* Pods_RxSwift_MVVM_C_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +59,9 @@
 		45E10E7A27788EE70045DACD /* AirportAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportAPI.swift; sourceTree = "<group>"; };
 		45E10E7D27788FAC0045DACD /* AirportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportModel.swift; sourceTree = "<group>"; };
 		45E10E8027818BB00045DACD /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		45E10E8227845DB30045DACD /* CityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityViewModel.swift; sourceTree = "<group>"; };
+		45E10E87278467490045DACD /* AirportCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCityTableViewCell.swift; sourceTree = "<group>"; };
+		45E10E88278467490045DACD /* AirportCityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AirportCityTableViewCell.xib; sourceTree = "<group>"; };
 		AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_C_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM-C Practice/Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +136,7 @@
 		45E10E5A27772EFB0045DACD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45E10E84278466FA0045DACD /* Cells */,
 				45E10E4A2770B4FF0045DACD /* SearchAirportViewController.swift */,
 			);
 			path = View;
@@ -139,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */,
+				45E10E8227845DB30045DACD /* CityViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -208,6 +216,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		45E10E84278466FA0045DACD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45E10E87278467490045DACD /* AirportCityTableViewCell.swift */,
+				45E10E88278467490045DACD /* AirportCityTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,6 +287,7 @@
 			files = (
 				45E10E532770B5000045DACD /* LaunchScreen.storyboard in Resources */,
 				45E10E502770B5000045DACD /* Assets.xcassets in Resources */,
+				45E10E8A278467490045DACD /* AirportCityTableViewCell.xib in Resources */,
 				45E10E4E2770B4FF0045DACD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +358,8 @@
 				45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */,
 				45E10E71277885800045DACD /* APIService.swift in Sources */,
 				45E10E492770B4FF0045DACD /* SceneDelegate.swift in Sources */,
+				45E10E8327845DB30045DACD /* CityViewModel.swift in Sources */,
+				45E10E89278467490045DACD /* AirportCityTableViewCell.swift in Sources */,
 				45E10E772778870B0045DACD /* AirportAPIRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
