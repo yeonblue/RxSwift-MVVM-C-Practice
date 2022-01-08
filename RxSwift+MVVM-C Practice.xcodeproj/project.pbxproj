@@ -34,6 +34,9 @@
 		45E10E8C278916B40045DACD /* AirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8B278916B40045DACD /* AirportViewController.swift */; };
 		45E10E8E278917500045DACD /* AirportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8D278917500045DACD /* AirportViewModel.swift */; };
 		45E10E90278929430045DACD /* AirportCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E8F278929430045DACD /* AirportCoordinator.swift */; };
+		45E10E932789A67F0045DACD /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E912789A67F0045DACD /* AirportTableViewCell.swift */; };
+		45E10E942789A67F0045DACD /* AirportTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E10E922789A67F0045DACD /* AirportTableViewCell.xib */; };
+		45E10E962789AB040045DACD /* SelectAirportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E10E952789AB040045DACD /* SelectAirportViewModel.swift */; };
 		E700F9C5E6627ABB5D4D8753 /* Pods_RxSwift_MVVM_C_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +71,9 @@
 		45E10E8B278916B40045DACD /* AirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewController.swift; sourceTree = "<group>"; };
 		45E10E8D278917500045DACD /* AirportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportViewModel.swift; sourceTree = "<group>"; };
 		45E10E8F278929430045DACD /* AirportCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCoordinator.swift; sourceTree = "<group>"; };
+		45E10E912789A67F0045DACD /* AirportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
+		45E10E922789A67F0045DACD /* AirportTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AirportTableViewCell.xib; sourceTree = "<group>"; };
+		45E10E952789AB040045DACD /* SelectAirportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAirportViewModel.swift; sourceTree = "<group>"; };
 		AAA4D893CD664BA228DCF618 /* Pods_RxSwift_MVVM_C_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_MVVM_C_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AA232904C97CDAA45946DB /* Pods-RxSwift+MVVM-C Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift+MVVM-C Practice/Pods-RxSwift+MVVM-C Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,6 +161,7 @@
 				45E10E5C27772F610045DACD /* SearchAirportViewModel.swift */,
 				45E10E8227845DB30045DACD /* CityViewModel.swift */,
 				45E10E8D278917500045DACD /* AirportViewModel.swift */,
+				45E10E952789AB040045DACD /* SelectAirportViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -230,6 +237,8 @@
 			children = (
 				45E10E87278467490045DACD /* AirportCityTableViewCell.swift */,
 				45E10E88278467490045DACD /* AirportCityTableViewCell.xib */,
+				45E10E912789A67F0045DACD /* AirportTableViewCell.swift */,
+				45E10E922789A67F0045DACD /* AirportTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -295,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45E10E532770B5000045DACD /* LaunchScreen.storyboard in Resources */,
+				45E10E942789A67F0045DACD /* AirportTableViewCell.xib in Resources */,
 				45E10E502770B5000045DACD /* Assets.xcassets in Resources */,
 				45E10E8A278467490045DACD /* AirportCityTableViewCell.xib in Resources */,
 				45E10E4E2770B4FF0045DACD /* Main.storyboard in Resources */,
@@ -363,10 +373,12 @@
 				45E10E7B27788EE70045DACD /* AirportAPI.swift in Sources */,
 				45E10E67277808C00045DACD /* Storyboardable.swift in Sources */,
 				45E10E90278929430045DACD /* AirportCoordinator.swift in Sources */,
+				45E10E962789AB040045DACD /* SelectAirportViewModel.swift in Sources */,
 				45E10E6B27784B6C0045DACD /* Extension.swift in Sources */,
 				45E10E642778073D0045DACD /* BaseCoordinator.swift in Sources */,
 				45E10E6F277884A40045DACD /* APIRouter.swift in Sources */,
 				45E10E6927783F4E0045DACD /* AppCoordinator.swift in Sources */,
+				45E10E932789A67F0045DACD /* AirportTableViewCell.swift in Sources */,
 				45E10E5D27772F610045DACD /* SearchAirportViewModel.swift in Sources */,
 				45E10E71277885800045DACD /* APIService.swift in Sources */,
 				45E10E492770B4FF0045DACD /* SceneDelegate.swift in Sources */,

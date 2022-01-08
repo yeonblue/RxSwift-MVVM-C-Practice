@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="AirportTableViewCell" customModule="RxSwift_MVVM_C_Practice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Epx-lQ-AlS">
+                        <rect key="frame" x="8" y="8" width="304" height="159"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="mVb-Fx-zTF">
+                        <rect key="frame" x="16" y="16" width="288" height="143"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Airport Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Cq-WC-mGi">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="44.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="26"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZb-Ej-GZE">
+                                <rect key="frame" x="0.0" y="49.5" width="288" height="29"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLu-h1-DZk">
+                                <rect key="frame" x="0.0" y="83.5" width="288" height="29"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runway Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZx-9R-eL9">
+                                <rect key="frame" x="0.0" y="117.5" width="288" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="13"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="HZx-9R-eL9" firstAttribute="centerX" secondItem="mVb-Fx-zTF" secondAttribute="centerX" id="HCj-h9-c7z"/>
+                            <constraint firstItem="1Cq-WC-mGi" firstAttribute="centerX" secondItem="mVb-Fx-zTF" secondAttribute="centerX" id="aDI-w7-RdS"/>
+                            <constraint firstItem="tZb-Ej-GZE" firstAttribute="centerX" secondItem="mVb-Fx-zTF" secondAttribute="centerX" id="azo-ZT-xBZ"/>
+                            <constraint firstItem="iLu-h1-DZk" firstAttribute="centerX" secondItem="mVb-Fx-zTF" secondAttribute="centerX" id="wa1-Mw-FwN"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="mVb-Fx-zTF" secondAttribute="trailing" constant="16" id="1aS-yB-h0M"/>
+                    <constraint firstItem="Epx-lQ-AlS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="BrG-P1-DnC"/>
+                    <constraint firstAttribute="bottom" secondItem="mVb-Fx-zTF" secondAttribute="bottom" constant="16" id="OCh-bC-46W"/>
+                    <constraint firstItem="mVb-Fx-zTF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="hbQ-By-MD4"/>
+                    <constraint firstAttribute="trailing" secondItem="Epx-lQ-AlS" secondAttribute="trailing" constant="8" id="k29-Y6-ta2"/>
+                    <constraint firstItem="mVb-Fx-zTF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="rLG-Qn-X1b"/>
+                    <constraint firstAttribute="bottom" secondItem="Epx-lQ-AlS" secondAttribute="bottom" constant="8" id="vzB-Hv-HIJ"/>
+                    <constraint firstItem="Epx-lQ-AlS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="yQF-HG-Zm5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="airportNameLabel" destination="1Cq-WC-mGi" id="jED-I6-UuT"/>
+                <outlet property="countryLabel" destination="iLu-h1-DZk" id="8SW-aI-vfh"/>
+                <outlet property="distanceLabel" destination="tZb-Ej-GZE" id="Y92-IG-MMI"/>
+                <outlet property="lengthLabel" destination="HZx-9R-eL9" id="t9W-pQ-Zug"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="118.86160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
