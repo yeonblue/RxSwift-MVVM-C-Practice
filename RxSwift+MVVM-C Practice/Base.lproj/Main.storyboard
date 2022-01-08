@@ -64,6 +64,36 @@
             </objects>
             <point key="canvasLocation" x="139" y="138"/>
         </scene>
+        <!--Airport View Controller-->
+        <scene sceneID="0oS-G7-p1v">
+            <objects>
+                <viewController storyboardIdentifier="AirportViewController" id="Vdf-x6-m8c" customClass="AirportViewController" customModule="RxSwift_MVVM_C_Practice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sf9-Cj-ctz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Iwd-br-2cB">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Hp2-f4-tf3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hp2-f4-tf3" firstAttribute="trailing" secondItem="Iwd-br-2cB" secondAttribute="trailing" id="dT2-X0-DRi"/>
+                            <constraint firstItem="Iwd-br-2cB" firstAttribute="leading" secondItem="Hp2-f4-tf3" secondAttribute="leading" id="hY1-5t-5BO"/>
+                            <constraint firstItem="Hp2-f4-tf3" firstAttribute="bottom" secondItem="Iwd-br-2cB" secondAttribute="bottom" id="onA-Yf-SrV"/>
+                            <constraint firstItem="Iwd-br-2cB" firstAttribute="top" secondItem="Hp2-f4-tf3" secondAttribute="top" id="qcP-fF-ytb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Iwd-br-2cB" id="jlG-fW-y2J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0g-mv-s4W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914" y="138"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="secondarySystemBackgroundColor">

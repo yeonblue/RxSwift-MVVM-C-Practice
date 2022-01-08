@@ -34,12 +34,13 @@ class SearchAirportViewController: UIViewController, Storyboardable {
         return cityCell
     })
     
-    // MARK: - Lifecycle
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         viewModel = viewModelBuilder((
-            searchText: searchTextField.rx.text.orEmpty.asDriver(), ()
+            searchText: searchTextField.rx.text.orEmpty.asDriver(),
+            citySelected: tableView.rx.modelSelected(CityViewModel.self).asDriver()
         ))
         
         setupUI()
